@@ -1,22 +1,44 @@
-.App {
+.jumbotron {
+  background: linear-gradient(to bottom, cyan 20%, transparent 90%);
   text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.jumbotron p {
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+h1 {
+  font-family: 'Big Shoulders Text', sans-serif;
+  font-size: 150px;
+  color: red;
+  text-shadow: 3px 3px 0 black;
+  letter-spacing: -4px;
+  line-height: 1em;
+}
+
+.scoreboard {
+  color: white;
+  background-color: rgba(0,0,0,0.2);
+  padding: 20px 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.options {
+  margin-top: 20px 0;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 125px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 100px;
+  }
 }
